@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OverPowered Photos</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+                <h1>OverPowered Photos</h1>
+            </div>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button type="button">Search</button>
+            </div>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="https://twitter.com" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="https://instagram.com" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </div>
+    </header>
+    <main>
+        <section id="slideshow">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="image-container">
+                        <img src="image1.jpg" alt="Image 1">
+                        <img src="image2.jpg" alt="Image 2">
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="image-container">
+                        <img src="image3.jpg" alt="Image 3">
+                        <img src="image4.jpg" alt="Image 4">
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="image-container">
+                        <img src="image5.jpg" alt="Image 5">
+                        <img src="image6.jpg" alt="Image 6">
+                    </div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+        </section>
+        <section id="Services">
+            <h2>Services</h2>
+            <p>This is the home section.</p>
+        </section>
+        <section id="Pricing">
+            <h2>Pricing</h2>
+            <p>This is the about section.</p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>This is the about section.</p>
+        </section>
+        <section id="Contact">
+            <h2>Contact</h2>
+            <p>The contact section goes here.</p>
+            <div class="contact-boxes">
+                <div class="contact-box">
+                    <h3>Interest Form</h3>
+                    <p>Fill out our interest form to learn more about our services.</p>
+                    <a href="interest_form.html" class="contact-button">Interest Form</a>
+                </div>
+                <div class="contact-box">
+                    <h3>Scheduling Form</h3>
+                    <p>Schedule a meeting with us using our scheduling form.</p>
+                    <a href="scheduling_form.html" class="contact-button">Scheduling Form</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
